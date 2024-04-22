@@ -20,7 +20,7 @@ The main module of the library will be the preprocessor, encompassing a class de
 Additionally, the library will include a machine learning model fitting and evaluation module. This module will feature classes for different machine learning models, such as Naïve Bayes and N-gram models, along with methods for model fitting, transformation, prediction, and evaluation. By providing a variety of machine learning models and evaluation techniques, users can choose the most suitable approach for their specific NLP tasks.
 
 The implementation of the proposed design will depend on several external libraries, including re (regular expressions), TensorFlow, NLTK, NumPy, and Pandas. These libraries will be leveraged to enhance the accuracy, efficiency, and customization of the implemented methods. By integrating with established libraries like TensorFlow for deep learning capabilities and NLTK for NLP functionalities, the proposed design aims to provide a comprehensive and versatile NLP toolkit for text data analysis.
-![image](https://github.com/ds5010gp8/DS--5010-Elon-musk-tweet-analysis-/assets/167725630/2276d03f-4f0f-4713-98f6-577b761a8563)
+
 
 
 **ELON MUSK TWEET ANALYSIS**
@@ -64,7 +64,7 @@ COLUMN DESCRIPTION:
     video: videos in the tweet (Yes/No).
     thumbnail: Thumbnail for the image present in the tweet (if applicable, otherwise null).
     `retweet: Is this a retweet? (Yes/No).`
-    nlikes: Number of likes on the tweet.
+            nlikes: Number of likes on the tweet.
     nreplies: Number of replies to the tweet.
     nretweets: Number of times the tweet was retweeted.
     quote_url: Url of quoted tweet, if applicable.
@@ -77,5 +77,7 @@ COLUMN DESCRIPTION:
     retweet_id: Id of the retweet, null.
     reply_to: Info about the original tweet if this datapoint is a reply.
     retweet_date: Date of retweet, null.
+    
+
 
 
